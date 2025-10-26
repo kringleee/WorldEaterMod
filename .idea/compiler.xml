@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="&quot;-AoutRefMapFile=C:\Users\email\Downloads\MC MODDING\WorldEater\build\classes\java\main\WorldEater-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=C:\Users\email\Downloads\MC MODDING\WorldEater\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_10.1.21.10+build.2-v2.main.tiny&quot; -AinMapFileNamedIntermediary=C:\Users\email\.gradle\caches\fabric-loom\1.21.10\net.fabricmc.yarn.1_21_10.1.21.10+build.2-v2\mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="WorldEater.test" options="&quot;-AoutRefMapFile=C:\Users\email\Downloads\MC MODDING\WorldEater\build\classes\java\test\test-WorldEater-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=C:\Users\email\Downloads\MC MODDING\WorldEater\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_10.1.21.10+build.2-v2.test.tiny&quot; -AinMapFileNamedIntermediary=C:\Users\email\.gradle\caches\fabric-loom\1.21.10\net.fabricmc.yarn.1_21_10.1.21.10+build.2-v2\mappings.tiny" />
+    </option>
+  </component>
+</project>
