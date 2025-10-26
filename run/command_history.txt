@@ -1,0 +1,5 @@
+/chaosblocks 10
+/chaosblocks
+/safeblocks
+/safeblocks 10
+/safeblocks

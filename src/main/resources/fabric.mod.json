@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "worldeater",
+  "version": "0.1-SNAPSHOT",
+  "name": "WorldEater",
+  "description": "This Mod Slowly Destroys Your World. You Can Set It's Strength And Start It Via Commands",
+  "authors": ["kringle"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/worldeater/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.kringle.worldeater.client.WorldeaterDataGenerator"
+    ],
+    "client": [
+      "net.kringle.worldeater.client.WorldeaterClient"
+    ],
+    "main": [
+      "net.kringle.worldeater.BlockDestroyer"
+    ]
+  },
+  "mixins": [
+    "worldeater.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
